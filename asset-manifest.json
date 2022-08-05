@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Night-Chat/static/js/main.a4a13272.js",
+    "main.js": "/Night-Chat/static/js/main.535584f2.js",
     "static/media/rd.png": "/Night-Chat/static/media/rd.0c64aaeff4b63279b3be.png",
     "static/media/eyes.png": "/Night-Chat/static/media/eyes.0c6beef3861ab305653c.png",
     "static/media/lambo.png": "/Night-Chat/static/media/lambo.bec2f9b65c4420cc5758.png",
     "index.html": "/Night-Chat/index.html",
-    "main.a4a13272.js.map": "/Night-Chat/static/js/main.a4a13272.js.map"
+    "main.535584f2.js.map": "/Night-Chat/static/js/main.535584f2.js.map"
   },
   "entrypoints": [
-    "static/js/main.a4a13272.js"
+    "static/js/main.535584f2.js"
   ]
 }
