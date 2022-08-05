@@ -6,13 +6,13 @@ import { Link as LinkR } from "react-router-dom";
 export const SidebarContainer = styled.aside`
 position: fixed;
 z-index: 999;
-width: 95%;
+width: 100%;
 height: 100%;
 background: white;
 display: grid;
 align-items: center;
 top: 0;
-left: 0;
+right: 30px;
 transition: 0.3s ease-in-out;
 opacity: ${({ isOpen })=> (isOpen ? '100%' : '0') };
 top: ${({ isOpen })=> (isOpen ? '0' : '-100%') };
@@ -45,7 +45,7 @@ text-align: center;
 margin-top: 100px;
 
 @media screen and (max-width:480px) {
-      /* grid-template-columns: repeat(6, 60px); */
+      ${'' /* grid-template-columns: repeat(6, 60px);  */}
 }
 `
 export const SidebarLink = styled(LinkS)`

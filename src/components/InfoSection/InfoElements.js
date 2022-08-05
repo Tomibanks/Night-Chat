@@ -38,7 +38,7 @@ min-width: 50px;
 }
 
 @media screen and (max-width: 568px) {
-flex-basis: 70%;
+flex-basis: 90%;
 min-width: 50px;
 }
 `;
