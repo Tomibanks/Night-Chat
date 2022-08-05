@@ -12,7 +12,7 @@ background: white;
 display: grid;
 align-items: center;
 top: 0;
-right: 30px;
+right: 25px;
 transition: 0.3s ease-in-out;
 opacity: ${({ isOpen })=> (isOpen ? '100%' : '0') };
 top: ${({ isOpen })=> (isOpen ? '0' : '-100%') };

@@ -37,9 +37,12 @@ justify-self: start;
 cursor: pointer;
 display: flex;
 align-items: center;
-${'' /* margin-left: 24px; */}
 font-weight: bold;
 text-decoration: none;
+
+@media screen and (max-width: 960px) {
+      margin-left: -34px;
+}
 `
 
 export const MobileIcon = styled.div`
