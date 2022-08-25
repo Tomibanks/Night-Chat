@@ -1,13 +1,15 @@
 import React from 'react'
-import Image from '../images/rd.png'
+import Image from '../images/rd2.png'
 import { 
   BoxContain, 
   BoxWrap,
   MiniWrp,
   MiniWrp2,
-  MiniWrap,
-  MiniWrap2,
-  MiniWrap3
+  MiniWrap4,
+  MiniWrap5,
+  MiniWrap3,
+  ImgWrap,
+  Img
 } from '../BoxSection4/BoxElements4'
 
 const BoxElements4 = () => {
@@ -23,15 +25,18 @@ const BoxElements4 = () => {
       </MiniWrp2>
 
       <MiniWrap3>
-      <img src={Image} alt='Logo' style={{width:'280px'}} />
+      {/* <img src={Image} alt='Logo' style={{width:'600px'}} /> */}
+      <ImgWrap>
+      <Img src={Image} />
+      </ImgWrap>
       </MiniWrap3>
 
-      <MiniWrap>
+      <MiniWrap4>
       Chat and talk all night long without any hitches
-      </MiniWrap>
-      <MiniWrap2>
+      </MiniWrap4>
+      <MiniWrap5>
       or network hindrances.
-      </MiniWrap2>
+      </MiniWrap5>
 
       </BoxWrap>
      </BoxContain>

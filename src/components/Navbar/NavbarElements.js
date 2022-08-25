@@ -41,7 +41,7 @@ font-weight: bold;
 text-decoration: none;
 
 @media screen and (max-width: 960px) {
-      margin-left: -34px;
+      margin-left: -24px;
 }
 `
 

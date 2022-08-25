@@ -79,7 +79,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 25px;
-color: #000000;
+color: #959595;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 @media screen and (max-width: 968px) {   
 }

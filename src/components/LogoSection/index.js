@@ -25,6 +25,8 @@ const LogoSection = () => {
       </LogoWrapper>
 
       <ImageContainer>
+
+            
             <ImageItem>
             <img src={Image} alt='Logo' style={{width:'90px'}} />
             </ImageItem>
@@ -33,6 +35,7 @@ const LogoSection = () => {
             <img src={Image1} alt='Logo' style={{width:'130px'}} />
             </ImageItem>
 
+           
             <ImageItem>
             <img src={Image2} alt='Logo' style={{width:'130px'}} />
             </ImageItem>
@@ -42,11 +45,11 @@ const LogoSection = () => {
             </ImageItem>
 
             <ImageItem>
-            <img src={Image4} alt='Logo' style={{width:'60px'}} />
+            <img src={Image4} alt='Logo' style={{width:'80px'}} />
             </ImageItem>
 
             <ImageItem>
-            <img src={Image5} alt='Logo' style={{width:'60px'}} />
+            <img src={Image5} alt='Logo' style={{width:'80px'}} />
             </ImageItem>
       </ImageContainer>
      </LogoContainer>

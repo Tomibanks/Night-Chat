@@ -8,12 +8,18 @@ background: white;
 `
 
 export const BoxWrap = styled.div`
-height: 580px;
+${'' /* display: grid; */}
+height: 630px;
 padding-left: 25px;
 padding-right: 25px;
 text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 @media screen and (max-width: 968px) {
+      height: 680px; 
+}
+
+@media screen and (max-width: 468px) {
+      height: 520px; 
 }
 `
 
@@ -22,14 +28,16 @@ margin-top: 100px;
 font-size: 20px;
 color: #6C86A9;
 font-weight: bold;
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 560px) {
+      font-size: 18px;
 }`
 
 export const MiniWrp2 = styled.nav`
 font-size: 20px;
 color: #6C86A9;
 font-weight: bold;
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 560px) {
+      font-size: 18px;
 }`
 
 export const MiniWrap = styled.nav`
@@ -51,15 +59,47 @@ color: black;
 }`
 
 export const MiniWrap3 = styled.nav`
-margin-top: 140px;
+margin-top: 20px;
 font-size: 25px;
 color: #ffff;
 @media screen and (max-width: 960px) {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
 }`
 
 export const MiniWrap4 = styled.nav`
 margin-top: 0px;
-font-size: 25px;
-color: #ffff;
-@media screen and (max-width: 960px) {
+font-size: 20px;
+color: #6C86A9;
+font-weight: bold;
+@media screen and (max-width: 560px) {
+      font-size: 17px;
 }`
+
+export const MiniWrap5 = styled.nav`
+margin-top: 0px;
+font-size: 20px;
+color: #6C86A9;
+font-weight: bold;
+@media screen and (max-width: 560px) {
+      font-size: 18px;
+}`
+
+export const ImgWrap = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+`;
+
+export const Img = styled.img`
+display: flex;
+justify-content: flex-start;
+width: 650px;
+
+@media screen and (max-width: 768px) {
+justify-content: flex-start;
+width: 350px;
+}
+`;

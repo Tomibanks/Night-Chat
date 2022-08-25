@@ -1,5 +1,11 @@
 import React from 'react'
+import Image from '../images/fairy.png'
+import Image2 from '../images/fairy2.png'
+
 import { 
+  GeneralDiv,
+  MainDiv,
+  ImageDiv,
   BoxContain, 
   BoxWrap,
   NavBtn,
@@ -7,12 +13,18 @@ import {
   MiniWrap,
   MiniWrap2,
   MiniWrap3,
-  MiniWrap4
+  MiniWrap4,
+  ImageDiv2
 } from '../BoxSection3/BoxElements3'
 
 const BoxElements3 = () => {
   return (
     <>
+    <GeneralDiv>
+    <MainDiv>
+    <ImageDiv>
+    <img src={Image} alt='Logo' style={{width:'100px'}} />
+    </ImageDiv>
      <BoxContain>
       <BoxWrap>
       <NavBtn>
@@ -36,6 +48,11 @@ const BoxElements3 = () => {
       </MiniWrap4>
       </BoxWrap>
      </BoxContain>
+     <ImageDiv2>
+     <img src={Image2} alt='Logo' style={{width:'100px'}} />
+    </ImageDiv2>
+    </MainDiv>
+     </GeneralDiv>
     </>
   )
 }

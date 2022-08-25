@@ -10,7 +10,7 @@ export const homeObjOne = {
       buttonText: 'Create a free account, already have an account',
       signIn: 'Sign in',
       imgStart: false,
-      img: require('../images/lp.png'),
+      img: require('../images/lp2.png'),
       alt: 'laptop',
       dark: true,
       primary: true,

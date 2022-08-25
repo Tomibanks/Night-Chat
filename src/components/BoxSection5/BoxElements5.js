@@ -4,18 +4,29 @@ export const InfoContainer = styled.div`
 background: white;
 
 @media screen and (max-width: 968px) {
-      padding: 100px 0;
+      padding: 0px 0;
 }
 `;
 
 export const InfoWrapper = styled.div`
 z-index: 1;
-height: 490px;
+height: 350px;
 width: 100%;
 max-width: 1040px;
 margin-right: auto;
 margin-left: auto;
-margin-top: 200px;
+margin-top: 50px;
+
+@media screen and (max-width: 968px) {
+      margin-bottom: 100px;
+      height: 500px;
+}
+
+@media screen and (max-width: 468px) {
+      margin-bottom: 0px;
+      margin: 2px;
+      height: 500px;
+}
 `;
 
 export const InfoRow = styled.div`
@@ -31,11 +42,6 @@ justify-content: space-around;
 export const Column1 = styled.div`
 flex-basis: 50%;
 min-width: 300px;
-
-@media screen and (max-width: 968px) {
-flex-basis: 40%;
-min-width: 50px;
-}
 
 @media screen and (max-width: 968px) {
 flex-basis: 90%;
@@ -55,17 +61,16 @@ padding-bottom: 20px;
 `;
 
 export const TopLine = styled.p`
-margin-bottom: -30px;
-font-size: 48px;
+margin-bottom: -20px;
+font-size: 20px;
 max-width: 305px;
 line-height: 1.1;
 font-weight: bold;
-color: #006BFF;
+color: #8D8D8D;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-@media screen and (max-width: 568px) {
-font-size: 35px;
-margin-bottom: -20px;
+@media screen and (max-width: 968px) {
+font-size: 25px;
 }
 `;
 
@@ -78,28 +83,25 @@ font-weight: bold;
 color: black;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 968px) {
 font-size: 32px;
 }
 `;
 
 export const Subtitle = styled.p`
 max-width: 400px;
-color: #1B4F60;
+font-weight: bold;
+color: #8D8D8D;
 margin-bottom: 10px;
 font-size: 18px;
 line-height: 24px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+@media screen and (max-width: 568px) {
+font-size: 15px;
+}
 `;
 
-export const BtnWrap = styled.div`
-display: flex;
-justify-content: end;
-`;
-
-export const Button = styled.button`
-width: 200px;
-`;
 export const ImgWrap = styled.div`
 ${'' /* max-width: 605px;
 height: 100%;
@@ -110,32 +112,15 @@ display: flex;
 justify-content: flex-start;
 width: 500px;
 
+@media screen and (max-width: 968px) {
+justify-content: flex-start;
+width: 550px;
+
 @media screen and (max-width: 768px) {
 justify-content: flex-start;
 width: 350px;
 }
-`;
 
-export const BtnText = styled.p`
-max-width: 400px;
-color: #8D8D8D;
-font-weight: bolder;
-margin-bottom: 10px;
-font-size: 18px;
-line-height: 24px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-@media screen and (max-width: 768px) {
-      font-size: 16px;
 }
 `;
 
-export const Signin = styled.p`
-max-width: 400px;
-color: #006BFF;
-cursor: pointer;
-margin-top: 1px;
-font-size: 18px;
-font-weight: bolder;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-`;
