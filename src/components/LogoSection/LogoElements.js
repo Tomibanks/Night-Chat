@@ -20,8 +20,8 @@ max-width: 1040px;
 margin-top: 50px;
 height: auto;
 text-align: center;
-@media screen and (max-width: 968px) {
-     
+@media screen and (max-width: 468px) {
+     margin-bottom: -60px;
 }
 `;
 

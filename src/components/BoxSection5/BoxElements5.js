@@ -97,7 +97,7 @@ font-size: 18px;
 line-height: 24px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 468px) {
 font-size: 15px;
 }
 `;
@@ -118,7 +118,7 @@ width: 550px;
 
 @media screen and (max-width: 768px) {
 justify-content: flex-start;
-width: 350px;
+width: 300px;
 }
 
 }
