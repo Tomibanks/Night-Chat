@@ -21,6 +21,11 @@ margin-top: 70px;
       margin-top: 0px;
       height: 500px;
 }
+
+@media screen and (max-width: 968px) {
+      margin-top: 40px;
+      height: 500px;
+}
 `;
 
 export const InfoRow = styled.div`
