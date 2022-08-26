@@ -51,6 +51,10 @@ border-radius: 16px;
 @media screen and (max-width: 968px) {   
       flex-basis: 70%;
 }
+
+@media screen and (max-width: 968px) {   
+      flex-basis: 100%;
+}
 `;
 
 export const ImgItem = styled.div`

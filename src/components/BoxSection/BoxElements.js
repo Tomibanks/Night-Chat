@@ -52,9 +52,18 @@ border-radius: 16px;
 }
 
 @media screen and (max-width: 468px) {   
-      flex-basis: 90%;
+      flex-basis: 100%;
 }
 `;
+
+export const Number1 = styled.div`
+background: #006BFF;
+color: white;
+display: inline;
+padding: 5px 10px 6px 10px;
+border-radius: 40px;
+margin: 20px;
+`
 
 export const Title = styled.h1`
 font-style: normal;

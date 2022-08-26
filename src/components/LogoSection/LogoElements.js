@@ -47,7 +47,7 @@ margin: 0;
 `;
 
 export const ImageC1 = styled.div`
-padding: 0;
+padding: 100px;
 margin: 0;
 
 @media screen and (max-width: 968px) {
@@ -74,6 +74,18 @@ margin: 0;
 `;
 
 export const ImageItem = styled.div`
+list-style: none;
+display: inline-block;
+width: 150px;
+height: 100px;
+
+@media screen and (max-width: 968px) {
+     display: block;
+     text-align: center;
+}
+`;
+
+export const ImageItem1 = styled.div`
 list-style: none;
 display: inline-block;
 width: 150px;

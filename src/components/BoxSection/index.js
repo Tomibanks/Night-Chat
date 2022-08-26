@@ -5,6 +5,7 @@ import {
   Heading,
   Tcontainer,
   Tmcontainer,
+  Number1,
   Title,
   Paragraph,
   Heading2
@@ -21,6 +22,9 @@ const BoxSection = () => {
 
                   <Tcontainer>
                       <Tmcontainer>
+                      <Number1>
+                         1
+                      </Number1>
                       <Title>
                       Create your own cycle
                       </Title>
@@ -31,6 +35,9 @@ who you want to have access to you.
                       </Tmcontainer>
 
                       <Tmcontainer>
+                      <Number1>
+                         2
+                      </Number1>
                       <Title>
                       Hide/share your profile
                       </Title>
@@ -43,6 +50,9 @@ to view your profile.
                       </Tmcontainer>
 
                       <Tmcontainer>
+                      <Number1>
+                         3
+                      </Number1>
                       <Title>
                       Save/Record 
                       </Title>
@@ -54,6 +64,9 @@ to worry about jotting meeting briefs.
                       </Tmcontainer>
 
                       <Tmcontainer>
+                      <Number1>
+                         4
+                      </Number1>
                       <Title>
                       Chat with friends & family
 

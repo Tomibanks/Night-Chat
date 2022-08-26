@@ -11,7 +11,8 @@ import {
       LogoWrapper,
       Heading,
       ImageContainer,
-      ImageItem
+      ImageItem,
+      ImageItem1
 } from './LogoElements'
 
 const LogoSection = () => {
@@ -31,14 +32,14 @@ const LogoSection = () => {
             <img src={Image} alt='Logo' style={{width:'90px'}} />
             </ImageItem>
 
-            <ImageItem>
-            <img src={Image1} alt='Logo' style={{width:'130px'}} />
-            </ImageItem>
+            <ImageItem1>
+            <img src={Image1} alt='Logo' style={{width:'135px'}} />
+            </ImageItem1>
 
            
-            <ImageItem>
+            <ImageItem1>
             <img src={Image2} alt='Logo' style={{width:'130px'}} />
-            </ImageItem>
+            </ImageItem1>
 
             <ImageItem>
             <img src={Image3} alt='Logo' style={{width:'130px'}} />
