@@ -148,11 +148,11 @@ width: 450px;
 @media screen and (max-width: 968px) {
 justify-content: flex-start;
 margin-left: 0px;
-width: 250px;
+width: 300px;
 
 @media screen and (max-width: 768px) {
 justify-content: flex-start;
-width: 200px;
+width: 250px;
 }
 
 }

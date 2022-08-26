@@ -9,7 +9,12 @@ place-items: center;
 margin-top: 30px;
 
 @media screen and (max-width: 968px) {
-      height: 150vh;
+      height: 140vh;
+      margin-top: 150px;
+}
+
+@media screen and (max-width: 568px) {
+      height: 140vh;
       margin-top: 130px;
 }
 `;
@@ -47,7 +52,7 @@ margin: 0;
 `;
 
 export const ImageC1 = styled.div`
-padding: 100px;
+padding: ;
 margin: 0;
 
 @media screen and (max-width: 968px) {

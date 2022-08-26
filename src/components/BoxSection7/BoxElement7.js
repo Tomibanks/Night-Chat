@@ -114,7 +114,7 @@ width: 250px;
 
 @media screen and (max-width: 768px) {
 justify-content: flex-start;
-width: 200px;
+width: 250px;
 }
 
 }

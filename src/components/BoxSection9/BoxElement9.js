@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-background: white;
+background: #F6F6F6;
 
 @media screen and (max-width: 968px) {
       padding: 0px 0;
@@ -116,11 +116,11 @@ width: 500px;
 @media screen and (max-width: 968px) {
 justify-content: flex-start;
 margin-left: 0px;
-width: 250px;
+width: 300px;
 
 @media screen and (max-width: 768px) {
 justify-content: flex-start;
-width: 200px;
+width: 250px;
 }
 
 }
