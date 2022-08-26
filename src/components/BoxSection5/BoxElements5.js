@@ -22,10 +22,10 @@ margin-top: 50px;
       height: 500px;
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 568px) {
       margin-bottom: 0px;
-      margin: 2px;
-      height: 500px;
+      margin-top: -30px;
+      height: 470px;
 }
 `;
 
