@@ -23,7 +23,7 @@ margin-top: 40px;
 }
 
 @media screen and (max-width: 468px) {
-      margin-top: -60px;
+      margin-top: 0px;
 }
 `;
 
