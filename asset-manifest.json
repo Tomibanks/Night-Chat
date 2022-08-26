@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Night-Chat/static/js/main.c809a449.js",
+    "main.js": "/Night-Chat/static/js/main.400a7d84.js",
     "static/media/girl.png": "/Night-Chat/static/media/girl.90e27d0985f8f3005531.png",
     "static/media/phone.png": "/Night-Chat/static/media/phone.767ee9b1e48be873fe31.png",
     "static/media/rd2.png": "/Night-Chat/static/media/rd2.ba24438a284457496d03.png",
@@ -11,9 +11,9 @@
     "static/media/blue.png": "/Night-Chat/static/media/blue.3d04013f94a5177e310e.png",
     "static/media/lambo.png": "/Night-Chat/static/media/lambo.bec2f9b65c4420cc5758.png",
     "index.html": "/Night-Chat/index.html",
-    "main.c809a449.js.map": "/Night-Chat/static/js/main.c809a449.js.map"
+    "main.400a7d84.js.map": "/Night-Chat/static/js/main.400a7d84.js.map"
   },
   "entrypoints": [
-    "static/js/main.c809a449.js"
+    "static/js/main.400a7d84.js"
   ]
 }
