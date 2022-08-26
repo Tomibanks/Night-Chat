@@ -17,8 +17,12 @@ import {
       TopLine,
       Heading,
       Heading1,
+      Heading11,
+      Heading111,
       Subtitle,
       Subtitle1,
+      Subtitle11,
+      Subtitle111,
       Column2, 
       ImgWrap,
       Img,
@@ -118,39 +122,39 @@ click here.
                         </Column2>
                         <Column3>
                         <TextWrapper>
-                              <Heading1>
+                              <Heading11>
                                     Popular
-                              </Heading1>
-                              <Subtitle1>
+                              </Heading11>
+                              <Subtitle11>
                                     Night Chat room
-                    </Subtitle1>
-                    <Subtitle1>
+                    </Subtitle11>
+                    <Subtitle11>
                                     Notification
-                    </Subtitle1>
-                    <Subtitle1>
+                    </Subtitle11>
+                    <Subtitle11>
                                     Night Chat mobile
-                    </Subtitle1>
-                    <Subtitle1>
-                                    .
-                    </Subtitle1>
-                    <Subtitle1>
-                                  .
-                    </Subtitle1>
-                    <Heading1>
+                    </Subtitle11>
+                    <Subtitle11>
+                                    
+                    </Subtitle11>
+                    <Subtitle11>
+                                  
+                    </Subtitle11>
+                    <Heading11>
                                     Help
-                              </Heading1>
-                              <Subtitle1>
+                              </Heading11>
+                              <Subtitle11>
                                    Help Centre
-                    </Subtitle1>
-                    <Subtitle1>
+                    </Subtitle11>
+                    <Subtitle11>
                                    Video
-                    </Subtitle1>
-                    <Subtitle1>
+                    </Subtitle11>
+                    <Subtitle11>
                                     Voice Messaging App
-                    </Subtitle1>
-                    <Subtitle1>
-                                    .
-                    </Subtitle1>
+                    </Subtitle11>
+                    <Subtitle11>
+                                    
+                    </Subtitle11>
 
                         </TextWrapper>
                         </Column3>
@@ -158,39 +162,39 @@ click here.
 
                         <Column4>
                         <TextWrapper>
-                              <Heading1>
+                              <Heading111>
                                     Others
-                              </Heading1>
-                              <Subtitle1>
+                              </Heading111>
+                              <Subtitle111>
                                    Users
-                    </Subtitle1>
-                    <Subtitle1>
+                    </Subtitle111>
+                    <Subtitle111>
                                    Sales
-                    </Subtitle1>
-                    <Subtitle1>
+                    </Subtitle111>
+                    <Subtitle111>
                                     Technology
-                    </Subtitle1>
-                    <Subtitle1>
+                    </Subtitle111>
+                    <Subtitle111>
                                     Terms and Conditions
-                    </Subtitle1>
-                    <Subtitle1>
-                                    .
-                    </Subtitle1>
-                    <Heading1>
+                    </Subtitle111>
+                    <Subtitle111>
+                                    
+                    </Subtitle111>
+                    <Heading111>
                                     Developers
-                              </Heading1>
-                              <Subtitle1>
+                              </Heading111>
+                              <Subtitle111>
                                     Developer
-                    </Subtitle1>
-                    <Subtitle1>
+                    </Subtitle111>
+                    <Subtitle111>
                                     Tool
-                    </Subtitle1>
-                    <Subtitle1>
-                                    .
-                    </Subtitle1>
-                    <Subtitle1>
-                                    .
-                    </Subtitle1>
+                    </Subtitle111>
+                    <Subtitle111>
+                                    
+                    </Subtitle111>
+                    <Subtitle111>
+                                    
+                    </Subtitle111>
 
                         </TextWrapper>
                         </Column4>

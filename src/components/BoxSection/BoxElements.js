@@ -10,8 +10,8 @@ margin: 70px 0;
 export const BoxWrapper = styled.div`
 max-width: 1080px;
 margin: auto;
-padding-left: 25px;
-padding-right: 25px;
+padding-left: 30px;
+padding-right: 30px;
 @media screen and (max-width: 968px) {   
 }
 `;
@@ -50,6 +50,10 @@ border-radius: 16px;
 @media screen and (max-width: 968px) {   
       flex-basis: 70%;
 }
+
+@media screen and (max-width: 468px) {   
+      flex-basis: 90%;
+}
 `;
 
 export const Title = styled.h1`
@@ -59,6 +63,7 @@ font-size: 20px;
 line-height: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: #000000;
+margin-left: 20px;
 @media screen and (max-width: 968px) {   
 }
 `;
@@ -70,6 +75,7 @@ font-size: 15px;
 line-height: 25px;
 color: #959595;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 20px;
 @media screen and (max-width: 968px) {   
 }
 `;
