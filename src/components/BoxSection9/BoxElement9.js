@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-background: #F6F6F6;
+background: white;
 
 @media screen and (max-width: 968px) {
       padding: 0px 0;
